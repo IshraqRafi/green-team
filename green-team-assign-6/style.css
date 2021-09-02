@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    font-family: 'Secular One', sans-serif;
+}
+.header{
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .header-left{
+    float: left;
+}
+.header .header-left img{
+    width: 150px;
+    height: 65px;
+}
+.header .header-middle ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+}
+.header .header-middle ul li a{
+    margin-left: 60px;
+    color: #254CAC;
+    text-decoration: none;
+}
+.header .header-right{
+    align-items: flex-end;
+    padding-right: 20px;
+}
+.header .header-right button{ 
+    height: 50px;
+    width: 162px;
+    border-radius: 34px;
+    border: 1px solid #ED6D2E;
+    color: #ED6D2E;
+    background: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.8s;
+}
+.header .header-right button:hover{
+    background: #ED6D2E;
+    color: white;
+    transform: translateX(10px);
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .hero-left{
+    margin-left: 90px;
+}
+.hero .hero-left h4{
+    color: #254CAC;
+    font-size: 40px;
+    font-weight: 400;
+}
+.hero .hero-left h1{
+    color: #C1D230;
+    font-size: 100px;
+}
+.hero .hero-left p{
+    color: #254CAC;
+    font-size: 20px;
+    font-weight: normal;
+    width: 558px;
+}
+.hero .hero-left button{
+    height: 50px;
+    width: 150px;
+    border-radius: 34px;
+    background: #ED6D2E;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 80px;
+    transition: 0.8s;
+}
+.hero .hero-left button:hover{
+    background: white;
+    color: #ED6D2E;
+    border: 1px solid #ED6D2E;
+    transform: translateY(-10px);
+}
+.hero .hero-left .hero-bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.hero .hero-left .hero-bottom img{
+    height: 20%;
+    width: 20%;
+    margin-right: 40px;
+}
+.hero .hero-right img{
+    width: 615px;
+    height: 720px;
+    margin-left: 100px;
+}
